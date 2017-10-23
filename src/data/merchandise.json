@@ -1,0 +1,18 @@
+{
+  "merchandise": [
+    {
+      "img": "merch-shower.jpg",
+      "name": "Jeff Goldblum Custom Waterproof Shower Curtain",
+      "price": "$19.55",
+      "link": "https://www.amazon.com/Goldblum-Waterproof-Curtain-Curtains-LiangZP/dp/B01N3PNZDI",
+      "stars": 4.5
+    },
+    {
+      "img": "merch-cushion.jpg",
+      "name": "Dramatic Fade Resistant Jeff Goldblum Pillow Case",
+      "price": "$12.03",
+      "link": "https://www.amazon.com/40x60cm-pillow-Polyester-resistant-Goldblum/dp/B017K8IIDA",
+      "stars": 3.5
+    }
+  ]
+}
