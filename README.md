@@ -1,4 +1,4 @@
-# [cultofjeffgoldblum](http://cultofthepartyparrot.com)
+# [cultofjeffgoldblum](http://cultofjeffgoldblum.com)
 
 ```
                                  -+yhysyyyyyyyyyyyyyyyyyyyyyyyyyyhds+-`                             
