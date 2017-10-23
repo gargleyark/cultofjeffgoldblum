@@ -1,5 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Slabo+27px');
+
+html {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+body {
+  margin: 0px;
+}
+
 .jeff-small {
   width: 50px;
   height: auto;
   margin: 10px;
+}
+
+.jeff-small:hover {
+  -webkit-filter: invert(100%);
+}
+
+.content {
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+  width: 500px;
+  border-left: 3px solid #f50;
+  border-right: 3px solid #0f5;
+  transition: width 0.5s;
+}
+
+.content:hover {
+  width: 700px;
+}
+
+.content div {
+  width: 500px;
+  margin: auto;
+  height: 360px;
+}
+
+.header {
+  font-family: 'Slabo 27px', serif;
+  font-size: 32px;
+  width: 500px;
+  margin: auto;
+  border-top: 1px solid #bbb;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+
+.intro {
+  color: #999;
+}
+
+.intro .quote {
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  color: #000;
+}
+
+.intro em {
+  font-size: 12px;
+}
+
+.header div {
+  margin: 30px;
+  display: inline;
+}
+
+.header img {
+  width: 35px;
+  height: auto;
+}
+
+.footer {
+  padding-top: 10px;
+  margin: auto;
+  margin-top: 20px;
+  width: 100%;
+  text-align: left;
+  background: #eee;
+  padding: 12px;
+  color: #777;
+  background: #ddd;
+  font-family: 'Slabo 27px', serif;
+}
+
+.download {
+  text-align: center;
+  width: 500px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.download a {
+  width: 170px;
+  padding: 15px;
+  background: #f50;
+  transition: background 0.4s, width 0.4s;
+  color: #fff;
+  font-family: 'Slabo 27px', serif;
+  border-radius: 10px;
+  text-decoration: none;
+  display: block;
+  margin: auto;
+}
+
+.download a::after {
+  content: "Jeff me up";
+}
+
+.download a:hover:after {
+  content: "Life finds all the ways.";
+}
+
+.download a:hover {
+  background: #0f5;
+  width: 250px;
 }
