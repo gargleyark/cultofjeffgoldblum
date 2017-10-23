@@ -1,0 +1,20 @@
+{
+  "name": "cultofjeffgoldblum",
+  "version": "1.0.0",
+  "description": "life finds all the ways",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gargleyark/cultofjeffgoldblum.git"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "author": "steelo",
+  "license": "MIT",
+  "dependencies": {
+    "exec": "^0.1.2",
+    "express": "^4.10.2"
+  }
+}
