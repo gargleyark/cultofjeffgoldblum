@@ -52,3 +52,13 @@
    
 ```
 The only Slack reaction *gifs* you'll ever need.
+
+# Add more jeffs
+ 1. Create a jeff and add it to the `src/public/jeffs` folder, and update `jeffs.zip`
+ 1. PR it with a fancy name
+
+# Install & run
+ 1. `npm install`
+ 1. `npm start`
+ 1. Go to `http://localhost:9001/`
+
