@@ -44,7 +44,7 @@ h1, h2 {
 
 .jeff-container {
   display: inline-block;
-  padding: 15px;
+  padding: 0px;
 }
 
 .header {
@@ -180,7 +180,26 @@ h1, h2 {
     font-size: 24px;
 }
 
+
 @media screen and (min-width: 710px) {
+  .mobile {
+    display: none;
+  }
+
+  .jeff-name {
+      position: absolute;
+      opacity: 0;
+      top: -20px;
+      width: 100%;
+      text-align: center;
+      left: 0px;
+      transition: opacity 0.4s;
+  }
+
+  .jeff-container:hover .jeff-name {
+    opacity: 1;
+  }
+
   .header img {
     display: inline;
     width: 35px;
@@ -193,6 +212,7 @@ h1, h2 {
 
   .content {
     width: 500px;
+    position: relative;
   }
 
   .content:hover {
@@ -201,7 +221,7 @@ h1, h2 {
 
   .content .container {
     width: 500px;
-    height: 960px;
+    height: 360px;
   }
 
   .header {
