@@ -37,9 +37,14 @@ h1, h2 {
   transition: width 0.5s;
 }
 
-.content div {
+.content .container {
   width: 90%;
   margin: auto;
+}
+
+.jeff-container {
+  display: inline-block;
+  padding: 15px;
 }
 
 .header {
@@ -194,9 +199,9 @@ h1, h2 {
     width: 700px;
   }
 
-  .content div {
+  .content .container {
     width: 500px;
-    height: 360px;
+    height: 960px;
   }
 
   .header {
