@@ -28,5 +28,5 @@ const getMerchandise = () => {
       .replace('{{name}}', data.name)
       .replace('{{img}}', data.img)
       .replace('{{price}}', data.price)
-  })
+  }).join('')
 }
